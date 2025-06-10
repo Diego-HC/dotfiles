@@ -34,3 +34,5 @@ if [ -f "$HOME/.bash_aliases" ]; then
     source "$HOME/.bash_aliases"
 fi
 
+# Load starship theming
+eval "$(starship init bash)"
