@@ -25,6 +25,8 @@
     pkgs.zoxide
     pkgs.zellij
     pkgs.gh
+    pkgs.nerd-fonts.monaspace
+    pkgs.starship
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
