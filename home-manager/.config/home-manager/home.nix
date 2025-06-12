@@ -28,6 +28,7 @@
     pkgs.nerd-fonts.monaspace
     pkgs.starship
     pkgs.discord
+    pkgs.neofetch
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

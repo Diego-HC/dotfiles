@@ -2,7 +2,7 @@
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
 Exec=code %F
-Icon=code
+Icon=/nix/store/95p1drjjxrdv4piby38hwa8lazrpgjhv-vscode-1.100.3/share/pixmaps/vscode.png
 Type=Application
 Terminal=false
 Categories=Development;IDE;

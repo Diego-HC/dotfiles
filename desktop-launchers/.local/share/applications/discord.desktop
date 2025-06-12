@@ -2,7 +2,7 @@
 Name=Discord
 Comment=Discord
 Exec=discord
-Icon=discord
+Icon=/nix/store/r32n3z0fpnizxqc2nqdq84qz91v30nlq-discord-0.0.95/opt/Discord/discord.png
 Type=Application
 Terminal=false
 Categories=Network;Chat;InstantMessaging;
