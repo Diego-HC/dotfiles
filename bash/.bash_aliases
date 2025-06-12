@@ -1,3 +1,4 @@
+alias ls='eza --icons'
 alias cd='z'
 alias cat='bat'
 alias l='ls'
