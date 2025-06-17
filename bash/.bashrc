@@ -25,8 +25,6 @@ fi
 unset rc
 eval "$(zellij setup --generate-auto-start bash)"
 
-[ -f "$HOME/.bash_it_loader.sh" ] && source "$HOME/.bash_it_loader.sh"
-
 eval "$(zoxide init bash)"
 
 # Load aliases
