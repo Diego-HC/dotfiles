@@ -31,3 +31,10 @@ for dir in */; do
     stow "$dir"
 done
 
+# Nix / Home Manager setup
+if command -v home-manager &> /dev/null; then
+    echo "Setting up Home Manager..."
+    home-manager switch
+else
+    echo "Home Manager is not installed. Please install it to manage your Nix configuration."
+fi
