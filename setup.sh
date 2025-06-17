@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
 
+# Ensure dependencies are installed
+if ! command -v git &> /dev/null || ! command -v stow &> /dev/null; then
+    echo "git and stow are required but not installed. Please install them first."
+    exit 1
+fi
+
 # Clone dotfiles repo if not present
 if [ ! -d "$HOME/dotfiles" ]; then
     echo "Cloning dotfiles repo to $HOME/dotfiles"
+    
+    cd "$HOME" || exit 1
     git clone https://github.com/Diego-HC/dotfiles.git
 fi
 
@@ -22,3 +30,4 @@ for dir in */; do
     echo "Stowing $dir..."
     stow "$dir"
 done
+
