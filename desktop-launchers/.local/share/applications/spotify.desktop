@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Spotify
+Comment=Spotify
+Exec=spotify
+Icon=spotify
+Type=Application
+Terminal=false
+Categories=Network;
+
