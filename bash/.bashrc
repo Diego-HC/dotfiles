@@ -25,8 +25,6 @@ fi
 unset rc
 eval "$(zellij setup --generate-auto-start bash)"
 
-eval "$(zoxide init bash)"
-
 # Load aliases
 if [ -f "$HOME/.bash_aliases" ]; then
     source "$HOME/.bash_aliases"
@@ -34,3 +32,6 @@ fi
 
 # Load starship theming
 eval "$(starship init bash)"
+
+# Load zoxide for directory navigation
+eval "$(zoxide init bash)"
