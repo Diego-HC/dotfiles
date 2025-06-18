@@ -17,12 +17,6 @@ alias _='sudo'
 alias vbrc='${VISUAL:-vim} ~/.bashrc'
 alias vbpf='${VISUAL:-vim} ~/.bash_profile'
 
-# colored grep
-# Need to check an existing file for a pattern that will be found to ensure
-# that the check works when on an OS that supports the color option
-if command grep --color=auto "a" "${BASH_IT?}"/*.md &> /dev/null; then
-    alias grep='grep --color=auto'
-fi
 
 alias c='clear'
 alias cls='clear'

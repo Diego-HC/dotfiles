@@ -30,6 +30,11 @@ if [ -f "$HOME/.bash_aliases" ]; then
     source "$HOME/.bash_aliases"
 fi
 
+# Load custom environment variables
+if [ -f "$HOME/.bash_env" ]; then
+    source "$HOME/.bash_env"
+fi
+
 # Load starship theming
 eval "$(starship init bash)"
 
