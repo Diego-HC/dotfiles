@@ -7,7 +7,7 @@ A collection of configuration files and setup scripts for my Linux development e
 - **Bash** - Shell configuration with custom aliases and settings
 - **Starship** - Cross-shell prompt configuration
 - **Zellij** - Terminal multiplexer configuration
-- **Nix/NixOS** - Package manager and system configuration
+- **Nix** - Package manager and system configuration
 - **Home Manager** - Declarative dotfile management for Nix
 - **Desktop Launchers** - Custom application launchers
 
